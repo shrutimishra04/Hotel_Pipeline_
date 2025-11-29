@@ -1,0 +1,61 @@
+2025-11-29 12:46:18,684 - src.data_loader - INFO - Data loaded from C:\Users\Honey Upadhyay\OneDrive\Desktop\hotel_cancellation_assessment\data\Hotel Reservations.csv with shape (36275, 19)
+2025-11-29 12:46:18,809 - src.data_loader - INFO - Basic EDA completed.
+2025-11-29 12:46:18,812 - src.feature_engineering - INFO - Starting feature engineering.
+2025-11-29 12:46:18,849 - src.feature_engineering - INFO - Feature engineering completed.
+2025-11-29 12:46:18,861 - src.preprocess - INFO - Starting data cleaning.
+2025-11-29 12:46:18,904 - src.preprocess - INFO - Removed 0 duplicate rows.
+2025-11-29 12:46:18,922 - src.preprocess - INFO - Data cleaning done.
+2025-11-29 12:46:18,925 - src.preprocess - INFO - Starting outlier treatment for columns: ['lead_time', 'avg_price_per_room']
+2025-11-29 12:46:18,932 - src.preprocess - INFO - Capped outliers in lead_time to [-146.5, 289.5]
+2025-11-29 12:46:18,935 - src.preprocess - INFO - Capped outliers in avg_price_per_room to [20.749999999999993, 179.55]
+2025-11-29 12:46:18,936 - src.preprocess - INFO - Outlier treatment completed.
+2025-11-29 12:46:18,979 - src.preprocess - INFO - Split data into train: (29020, 24), test: (7255, 24)
+2025-11-29 12:46:18,989 - src.train - INFO - Training model: log_reg
+2025-11-29 12:46:32,515 - src.evaluate - INFO - Evaluation metrics: {'accuracy': 0.8002756719503791, 'precision': 0.6773700305810397, 'recall': 0.7454774926377787, 'f1': 0.7097937111956739, 'roc_auc': 0.8727905358565575}
+2025-11-29 12:46:32,515 - src.train - INFO - Training model: rf
+2025-11-29 12:56:04,410 - src.evaluate - INFO - Evaluation metrics: {'accuracy': 0.893039283252929, 'precision': 0.8810090433127082, 'recall': 0.7787126630206143, 'f1': 0.8267083519428317, 'roc_auc': 0.946805676512802}
+2025-11-29 12:56:04,411 - src.train - INFO - Training model: gb
+2025-11-29 12:56:50,018 - src.evaluate - INFO - Evaluation metrics: {'accuracy': 0.842315644383184, 'precision': 0.7377554955649827, 'recall': 0.8047959612957509, 'f1': 0.7698189134808853, 'roc_auc': 0.9184793004850536}
+2025-11-29 12:56:50,018 - src.train - INFO - Best base model: rf with F1=0.8267
+2025-11-29 12:56:50,020 - src.train - INFO - Starting Random Forest hyperparameter tuning.
+2025-11-29 13:24:34,927 - src.data_loader - INFO - Data loaded from C:\Users\Honey Upadhyay\OneDrive\Desktop\hotel_cancellation_assessment\data\Hotel Reservations.csv with shape (36275, 19)
+2025-11-29 13:24:35,225 - src.data_loader - INFO - Basic EDA completed.
+2025-11-29 13:24:35,230 - src.feature_engineering - INFO - Starting feature engineering.
+2025-11-29 13:24:35,305 - src.feature_engineering - INFO - Feature engineering completed.
+2025-11-29 13:24:35,321 - src.preprocess - INFO - Starting data cleaning.
+2025-11-29 13:24:35,396 - src.preprocess - INFO - Removed 0 duplicate rows.
+2025-11-29 13:24:35,423 - src.preprocess - INFO - Data cleaning done.
+2025-11-29 13:24:35,427 - src.preprocess - INFO - Starting outlier treatment for columns: ['lead_time', 'avg_price_per_room']
+2025-11-29 13:24:35,435 - src.preprocess - INFO - Capped outliers in lead_time to [-146.5, 289.5]
+2025-11-29 13:24:35,442 - src.preprocess - INFO - Capped outliers in avg_price_per_room to [20.749999999999993, 179.55]
+2025-11-29 13:24:35,442 - src.preprocess - INFO - Outlier treatment completed.
+2025-11-29 13:24:35,509 - src.preprocess - INFO - Split data into train: (29020, 24), test: (7255, 24)
+2025-11-29 13:24:35,524 - src.train - INFO - Training model: log_reg
+2025-11-29 13:24:57,417 - src.evaluate - INFO - Evaluation metrics: {'accuracy': 0.8002756719503791, 'precision': 0.6773700305810397, 'recall': 0.7454774926377787, 'f1': 0.7097937111956739, 'roc_auc': 0.8727905358565575}
+2025-11-29 13:24:57,419 - src.train - INFO - Training model: rf
+2025-11-29 13:25:19,155 - src.data_loader - INFO - Data loaded from c:\Users\Honey Upadhyay\OneDrive\Desktop\hotel_cancellation_assessment\data\Hotel Reservations.csv with shape (36275, 19)
+2025-11-29 13:25:19,484 - src.data_loader - INFO - Basic EDA completed.
+2025-11-29 13:25:19,490 - src.feature_engineering - INFO - Starting feature engineering.
+2025-11-29 13:25:19,565 - src.feature_engineering - INFO - Feature engineering completed.
+2025-11-29 13:25:19,584 - src.preprocess - INFO - Starting data cleaning.
+2025-11-29 13:25:19,688 - src.preprocess - INFO - Removed 0 duplicate rows.
+2025-11-29 13:25:19,729 - src.preprocess - INFO - Data cleaning done.
+2025-11-29 13:25:19,733 - src.preprocess - INFO - Starting outlier treatment for columns: ['lead_time', 'avg_price_per_room']
+2025-11-29 13:25:19,742 - src.preprocess - INFO - Capped outliers in lead_time to [-146.5, 289.5]
+2025-11-29 13:25:19,750 - src.preprocess - INFO - Capped outliers in avg_price_per_room to [20.749999999999993, 179.55]
+2025-11-29 13:25:19,750 - src.preprocess - INFO - Outlier treatment completed.
+2025-11-29 13:25:19,829 - src.preprocess - INFO - Split data into train: (29020, 24), test: (7255, 24)
+2025-11-29 13:25:19,848 - src.train - INFO - Training model: log_reg
+2025-11-29 14:04:34,174 - src.train - INFO - Best RF params: {'clf__n_estimators': 300, 'clf__min_samples_split': 5, 'clf__min_samples_leaf': 2, 'clf__max_features': None, 'clf__max_depth': 20}
+2025-11-29 14:04:34,175 - src.train - INFO - Best RF F1 (CV): 0.8275
+2025-11-29 14:04:35,601 - src.evaluate - INFO - Evaluation metrics: {'accuracy': 0.8970365265334252, 'precision': 0.8543478260869565, 'recall': 0.8266722759781236, 'f1': 0.8402822322001283, 'roc_auc': 0.9540773846947557}
+2025-11-29 14:04:36,304 - src.train - INFO - Model saved at C:\Users\Honey Upadhyay\OneDrive\Desktop\hotel_cancellation_assessment\models\hotel_cancellation_model.joblib
+2025-11-29 14:28:02,263 - src.preprocess - INFO - Starting data cleaning.
+2025-11-29 14:28:02,267 - src.preprocess - INFO - Removed 0 duplicate rows.
+2025-11-29 14:28:02,270 - src.preprocess - INFO - Data cleaning done.
+2025-11-29 14:28:02,270 - src.preprocess - INFO - Starting outlier treatment for columns: ['lead_time', 'avg_price_per_room']
+2025-11-29 14:28:02,278 - src.preprocess - INFO - Capped outliers in lead_time to [90.0, 90.0]
+2025-11-29 14:28:02,280 - src.preprocess - INFO - Capped outliers in avg_price_per_room to [120.0, 120.0]
+2025-11-29 14:28:02,280 - src.preprocess - INFO - Outlier treatment completed.
+2025-11-29 14:28:02,281 - src.feature_engineering - INFO - Starting feature engineering.
+2025-11-29 14:28:02,286 - src.feature_engineering - INFO - Feature engineering completed.
